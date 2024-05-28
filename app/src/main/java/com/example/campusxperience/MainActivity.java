@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         openButton = findViewById(R.id.open);
 
+        // Set the button's visibility to VISIBLE in case it was changed programmatically
         openButton.setVisibility(View.VISIBLE);
 
         openButton.setOnClickListener(new View.OnClickListener() {

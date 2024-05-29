@@ -8,4 +8,49 @@
     android:background="@drawable/rsvp_4"
     tools:context=".rsvp4">
 
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="392dp"
+        android:background="#002B2D30"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="42dp"
+        android:background="#002B2D30"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/returnButton"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/rsvpNow"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="153dp"
+        android:background="#002B2D30"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/invite"
+        tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

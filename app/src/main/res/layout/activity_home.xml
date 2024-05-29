@@ -26,10 +26,10 @@
             android:id="@+id/container_row1"
             android:layout_width="match_parent"
             android:layout_height="165dp"
-            android:weightSum="3"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="40dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="3">
 
             <Button
                 android:id="@+id/event_discovery"

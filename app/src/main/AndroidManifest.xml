@@ -13,6 +13,18 @@
         android:theme="@style/Theme.CampusXperience"
         tools:targetApi="31">
         <activity
+            android:name=".rsvp4"
+            android:exported="false" />
+        <activity
+            android:name=".rsvp3"
+            android:exported="false" />
+        <activity
+            android:name=".rsvp2"
+            android:exported="false" />
+        <activity
+            android:name=".rsvp1"
+            android:exported="false" />
+        <activity
             android:name=".eventAnalytics"
             android:exported="false" />
         <activity

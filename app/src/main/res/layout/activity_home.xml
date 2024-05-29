@@ -7,51 +7,95 @@
     android:background="@drawable/menu"
     tools:context=".Home">
 
-    <Button
-        android:id="@+id/event"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="167dp" />
+    <LinearLayout
+        android:id="@+id/container_icon"
+        android:layout_width="390dp"
+        android:layout_height="615dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="212dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/event_promo"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="387dp" />
+        <LinearLayout
+            android:id="@+id/container_row1"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:weightSum="3"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/rsvp"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="167dp" />
+            <Button
+                android:id="@+id/event_discovery"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent" />
 
-    <Button
-        android:id="@+id/event_ana"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="615dp" />
+            <Button
+                android:id="@+id/rsvp"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/rating"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="615dp" />
+        <LinearLayout
+            android:id="@+id/container_row2"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="45dp"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/event_remi"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="387dp" />
+            <Button
+                android:id="@+id/event_promotion"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/event_reminders"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_row3"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rating"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/event_analytics"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

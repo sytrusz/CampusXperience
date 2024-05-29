@@ -16,15 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        open = findViewById(R.id.open);
+        open = findViewById(R.id.event);
 
         open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
-
-                Toast.makeText(MainActivity.this, "CampusXperience", Toast.LENGTH_SHORT).show();
             }
         });
     }

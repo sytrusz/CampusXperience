@@ -7,4 +7,51 @@
     android:background="@drawable/menu"
     tools:context=".Home">
 
+    <Button
+        android:id="@+id/event"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/event_promo"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/rsvp"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/event_ana"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <Button
+        android:id="@+id/rating"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <Button
+        android:id="@+id/event_remi"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="387dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

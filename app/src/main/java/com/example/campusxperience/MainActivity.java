@@ -9,18 +9,16 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button openButton;
+    Button open;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        openButton = findViewById(R.id.open);
+        open = findViewById(R.id.open);
 
-        openButton.setVisibility(View.VISIBLE);
-
-        openButton.setOnClickListener(new View.OnClickListener() {
+        open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Login.class);

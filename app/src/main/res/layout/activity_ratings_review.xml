@@ -9,6 +9,21 @@
     tools:context=".ratingsReview">
 
     <Button
+        android:id="@+id/"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="392dp"
+        android:background="#002B2D30"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
         android:id="@+id/returnButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -22,5 +37,76 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="371dp"
+        android:layout_height="68dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="477dp">
+
+        <Button
+            android:id="@+id/rate1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#002B2D30"
+            android:visibility="visible"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="491dp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/rate2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#002B2D30"
+            android:visibility="visible"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="491dp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/rate3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#002B2D30"
+            android:visibility="visible"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="491dp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/rate4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#002B2D30"
+            android:visibility="visible"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="491dp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/rate5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#002B2D30"
+            android:visibility="visible"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="491dp"
+            tools:visibility="visible" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

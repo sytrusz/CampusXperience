@@ -1,13 +1,23 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "976696901400",
     "project_id": "campusxperience",
     "storage_bucket": "campusxperience.appspot.com"
+=======
+    "project_number": "873168684384",
+    "project_id": "campusxperience-f6140",
+    "storage_bucket": "campusxperience-f6140.appspot.com"
+>>>>>>> origin/main
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:976696901400:android:378f32b83d6ae66b4fe86d",
+=======
+        "mobilesdk_app_id": "1:873168684384:android:a70c30f84da239d5f1ca05",
+>>>>>>> origin/main
         "android_client_info": {
           "package_name": "com.example.campusxperience"
         }
@@ -15,7 +25,11 @@
       "oauth_client": [],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyCslpQJX6gdv85_83fGViwMjJdoE_Z-5xM"
+=======
+          "current_key": "AIzaSyDmMV54q14qq8SfG55rkEh0YqvSMU3YevA"
+>>>>>>> origin/main
         }
       ],
       "services": {
